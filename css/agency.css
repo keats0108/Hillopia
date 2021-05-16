@@ -602,11 +602,46 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
+.contactUs a {
+    color: black;
+}
+
+.contactUs a:hover {
+    color: #238f23;
+    text-decoration: underline;
+}
+
 section#contact {
   background-color: #212529;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+section#contactdetails {
+  background-color: darkgray;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#contactdetails iframe {
+    height: 450px;
+    width: 600px;
+}
+
+@media (min-width: 768px) {
+    #contactdetails iframe {
+        height: 450px;
+        width: 500px;
+        margin: auto;
+    }    
+}
+
+@media (min-width: 992px) {
+    #contactdetails iframe {
+        height: 450px;
+        width: 600px;
+    }    
 }
 
 section#contact .section-heading {
