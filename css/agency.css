@@ -624,26 +624,6 @@ section#contactdetails {
   background-position: center;
 }
 
-#contactdetails iframe {
-    height: 450px;
-    width: 600px;
-}
-
-@media (min-width: 768px) {
-    #contactdetails iframe {
-        height: 450px;
-        width: 500px;
-        margin: auto;
-    }    
-}
-
-@media (min-width: 992px) {
-    #contactdetails iframe {
-        height: 450px;
-        width: 600px;
-    }    
-}
-
 section#contact .section-heading {
   color: #fff;
 }
