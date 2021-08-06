@@ -13,63 +13,51 @@
         <link rel="shortcut icon" href="img/favicon.ico">    
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-        <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
         <!-- Bootstrap core CSS -->
-        <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
-        <!-- Material Design Bootstrap -->
-        <link rel="stylesheet" href="css/mdb.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <!-- Your custom styles (optional) -->
         <link rel="stylesheet" href="css/agency.css">
+        <!-- MDB CSS -->
+        <link rel="stylesheet" href="css/mdb.css">
+        <!-- Reset -->
+        <link rel="stylesheet" href="./css/reset.css">
 
     </head>
 
     <body>
-
+        
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-        <div class="container">
-            <a href="#top"><img src="img/logos/groupHillo.png"></a>
-            <!--<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <a href="index"><img src="img/logos/groupHillo.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
-            <div style="float:right;">
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav text-uppercase ml-auto">
-                    <li class="nav-item dropdown">
-                        <!--<a class="nav-link js-scroll-trigger" href="#services">힐로피아란?</a>-->
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">힐로피아란?</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about">회사소개</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#reach">연대표</a>
-                    </li>
-                        <!--
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#team">경영진</a>
-                    </li>-->
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#contact">연락하기</a>
-                    </li>
-                </ul>
-            </div>
-            </div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    힐로피아란?
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item js-scroll-trigger" href="subpage">hillopia_S</a>
+                        <a class="dropdown-item js-scroll-trigger" href="subpage">hillopia_F</a>
+                        <a class="dropdown-item js-scroll-trigger" href="subpage">hillopia_C</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="index#about">회사소개</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="index">연대표</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="index#contact">연락하기</a>
+                </li>
+            </ul>
         </div>
     </nav>
+
 
     <!-- Header -->
     <header class="subpHead" id="top">
@@ -91,66 +79,12 @@
                 </div>
             </div>
             
-            <div class="row align-items-center text-center serviceChunk">
-                <div class="col-md-6">
-                    <img src="img/logos/hillo_S.png" class="hilloLogo img-fluid">
-                </div>
-                <div class="col-sm-6">
-                    <h4 class="service-heading">hillopia_S</h4>
-                    <p>Service, Supervisory, Security</p>
-                    <p class="text-muted">
-                        “힐로피아_에스”는 농업관련 보험 및 손해평가 서비스를 제공하며,
-                        Great Mountain International Wellness Co. Ltd와 전략적 제휴를 통해
-                        국내 및 아시아 (Wellness)시장에 대한 컨설팅을 제공하고 있습니다.
-                        <br><br>
-                        <a href="" style="color:#7030A0;"><i class="fas fa-angle-double-left"></i> <strong>더보기</strong> <i class="fas fa-angle-double-right"></i></a>
-                    </p>
-                </div>
-            </div>
             
-            <div class="row align-items-center text-center serviceChunk">
-                <div class="col-sm-6" id="hiddenBlock">
-                    <img src="img/logos/hillo_F.png" class="hilloLogo">
-                </div>
-                <div class="col-sm-6">
-                    <h4 class="service-heading">hillopia_F</h4>
-                    <p>Fresh, Farm, Factory</p>
-                    <p class="text-muted">
-                        “힐로피아_에프＂는 친환경 농산물 프로젝트로써 무농약, 무공해, 무병해를
-                        기본으로 식물을 최적의 환경에서 성장하게 함으로써 그 태초의 맛과 영양을 그대로 소비자에게 전달하고 있습니다.
-                        <!--<br><br>
-                        온라인 쇼핑몰:
-                        <a href="http://hillo.shop">www.hillo.shop</a>-->
-                        
-                        <br><br>
-                        <a href=""><i class="fas fa-angle-double-left"></i> <strong>더보기</strong> <i class="fas fa-angle-double-right"></i></a>
-                    </p>
-                </div>
-                <div class="col-sm-6" id="secondHalf">
-                    <img src="img/logos/hillo_F.png" class="hilloLogo">
-                </div>
-            </div>
-            
-            <div class="row align-items-center text-center serviceChunk">
-                <div class="col-md-6">
-                    <img src="img/logos/hillo_C.png" class="hilloLogo img-fluid">
-                </div>
-                <div class="col-md-6">
-                    <h4 class="service-heading">hillopia_C</h4>
-                <p>Community, Charity, Christianity</p>
-                    <p class="text-muted">
-                        “힐로피아_씨이”는 주한 외국인들 대상 농촌체험 프로그램을 운영하고, 농촌 다문화가정 및 기타 외국인 노동자를 대상으로 한국어 교육등을 실행하면서 함께 발전하는 대한민국 농업이 되도 록 지원하고 있습니다.
-                        
-                        <br><br>
-                        <a href="" style="color:#FF9900;"><i class="fas fa-angle-double-left"></i> <strong>더보기</strong> <i class="fas fa-angle-double-right"></i></a>
-                    </p>
-                </div>
-            </div>
         </div>
       
     </section>
 
-    <!-- Clients-->
+    <!-- Clients--
     <section class="py-5">
         <div class="container">
             <div class="row">
@@ -208,48 +142,17 @@
     </footer>
         
     <!-- jQuery -->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!-- jQuery Easing -->
+    <script src="https://raw.githubusercontent.com/gdsmith/jquery.easing/master/jquery.easing.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
-    <!-- Plugin JavaScript -->
-    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
-    <!-- Your custom scripts (optional) -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-
-    <script type="text/javascript">
-    emailjs.init('user_Htm4wQp32qlRozTUChxjh')
-        
-    function sendMail() {
-        
-        var name = $("#name").val();
-        var email = $("#email").val();
-        var phone = $("#phone").val();
-        var message = $("#message").val();
-        
-        alert(template_params);
-        
-        var template_params = {
-        "name": name,
-        "email": email,
-        "phone": phone,
-        "message": message
-        
-        };
-        
-        const serviceID = 'default_service';
-        const templateID = 'contact_Us';
-        
-        console.log(template_params);
-        emailjs.send(serviceID, templateID, template_params);
-        
-        alert("Inquiry sent! We will get back to you soon!");
-    };
-    </script>
-        
+    
+            
 </body>
 
 </html>
